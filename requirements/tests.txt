@@ -79,9 +79,9 @@ faker==13.3.1 \
     --hash=sha256:c88c8b5ee9376a242deca8fe829f9a3215ffa43c31da6f66d9594531fb344453 \
     --hash=sha256:fa060e331ffffb57cfa4c07f95d54911e339984ed72596ba6a9e7b6fa569d799
     # via factory-boy
-fakeredis==1.7.1 \
-    --hash=sha256:7c2c4ba1b42e0a75337c54b777bf0671056b4569650e3ff927e4b9b385afc8ec \
-    --hash=sha256:be3668e50f6b57d5fc4abfd27f9f655bed07a2c5aecfc8b15d0aad59f997c1ba
+fakeredis==1.7.6 \
+    --hash=sha256:6e8d52c4d293230827000e6a512859ff4f2e16a38576c8586668c9b39b7dd213 \
+    --hash=sha256:b419e4fb5062520ffa0fc6150af999329af505fb9369ef3075dde826ab884fb9
     # via -r requirements/tests.in
 freezegun==1.2.0 \
     --hash=sha256:93e90676da387a241a7c2ae7ae68af7b95bfe80e952d0bbf3e088342de90a38d \
@@ -106,7 +106,6 @@ packaging==21.3 \
     --hash=sha256:dd47c42927d89ab911e606518907cc2d3a1f38bbd026385970643f9c5b8ecfeb \
     --hash=sha256:ef103e05f519cdc783ae24ea4e2e0f508a9c99b2d4969652eed6a2e1ea5bd522
     # via
-    #   fakeredis
     #   pytest
     #   redis
 pluggy==1.0.0 \
@@ -195,12 +194,7 @@ six==1.16.0 \
     --hash=sha256:8abb2f1d86890a2dfb989f9a77cfcfd3e47c2a354b01111771326f8aa26e0254
     # via
     #   bok-choy
-    #   fakeredis
     #   python-dateutil
-sortedcontainers==2.4.0 \
-    --hash=sha256:25caa5a06cc30b6b83d11423433f65d1f9d76c4c6a0c90e3379eaa43b9bfdb88 \
-    --hash=sha256:a163dcaede0f1c021485e957a39245190e74249897e2ae4b2aa38595db237ee0
-    # via fakeredis
 soupsieve==2.3.1 \
     --hash=sha256:1a3cca2617c6b38c0343ed661b1fa5de5637f257d4fe22bd9f1338010a1efefb \
     --hash=sha256:b8d49b1cd4f037c7082a9683dfa1801aa2597fb11c3a1155b7a5b94829b4f1f9

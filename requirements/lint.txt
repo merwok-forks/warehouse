@@ -209,9 +209,9 @@ types-requests==2.27.11 \
     --hash=sha256:506279bad570c7b4b19ac1f22e50146538befbe0c133b2cea66a9b04a533a859 \
     --hash=sha256:6a7ed24b21780af4a5b5e24c310b2cd885fb612df5fd95584d03d87e5f2a195a
     # via -r requirements/lint.in
-types-setuptools==57.4.10 \
-    --hash=sha256:9a13513679c640f6616e2d9ab50d431c99ca8ae9848a97243f887c80fd5cf294 \
-    --hash=sha256:ddc98da82c12e1208012d65276641a132d3aadc78ecfff68fd3e17d85933a3c1
+types-setuptools==62.6.1 \
+    --hash=sha256:affd968a3a7218e1c96f1806eb457f4027eac803b3caaddccf98a4e5776b1724 \
+    --hash=sha256:b0341c29c7f44f7625204532b8829bd92ebb5fd48aa9f3e2052177e743e990b1
     # via -r requirements/lint.in
 types-urllib3==1.26.10 \
     --hash=sha256:a26898f530e6c3f43f25b907f2b884486868ffd56a9faa94cbf9b3eb6e165d6a \

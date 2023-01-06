@@ -37,9 +37,9 @@ boto3-stubs==1.21.16 \
     --hash=sha256:7c529b6d1d3b03f3d227d24d66139c06dbb6df73eb3320f23dcce819b2d28f01 \
     --hash=sha256:843342ec59ee2b9950cc3002015d3cb22c5c6d63e43a064306cd6a19d1050421
     # via types-boto3
-botocore-stubs==1.24.16 \
-    --hash=sha256:39cdebc1ecbcafe924608781768b18e676fbadfede688b5a8bf97c19abeb1c4b \
-    --hash=sha256:e1be49e0aea5d9fc68b3d64a2cfba1f525bd6f50db1ceeca2c1a77072cb8dfb9
+botocore-stubs==1.29.44 \
+    --hash=sha256:598c42b3b5bcf80ac4a210a68c2592a3575f565acca2b34f260ee302ca1084ec \
+    --hash=sha256:e0d846130484ca1bf414482787efec9e85ea8bd2be54cffae10da9be21163d8d
     # via boto3-stubs
 celery-types==0.12.0 \
     --hash=sha256:22a0b46d04508bbdb5074d070ebac6179550c2aa8506e1b05b74850d61d4fa82 \
@@ -169,6 +169,10 @@ tomli==2.0.1 \
     # via
     #   black
     #   mypy
+types-awscrt==0.16.3 \
+    --hash=sha256:666948cb1868d77a274153ec4310ed58b995b3ec0aed4045a633b394a92c35b1 \
+    --hash=sha256:d19535554446ac89f50641936a7780f66228419853ee6dbd006b2bb6f19130d9
+    # via botocore-stubs
 types-boto3==1.0.1 \
     --hash=sha256:392d5fdbb40ea0fb20f5116897e96b5e6c5b4a784e8c75aec1f5e12f2ebe3438 \
     --hash=sha256:4eb8aad23d4287d2f5b30a36e742f108beab8e0d55eb73817fdce405b8eef95e

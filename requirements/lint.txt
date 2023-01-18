@@ -37,9 +37,9 @@ boto3-stubs==1.21.16 \
     --hash=sha256:7c529b6d1d3b03f3d227d24d66139c06dbb6df73eb3320f23dcce819b2d28f01 \
     --hash=sha256:843342ec59ee2b9950cc3002015d3cb22c5c6d63e43a064306cd6a19d1050421
     # via types-boto3
-botocore-stubs==1.24.16 \
-    --hash=sha256:39cdebc1ecbcafe924608781768b18e676fbadfede688b5a8bf97c19abeb1c4b \
-    --hash=sha256:e1be49e0aea5d9fc68b3d64a2cfba1f525bd6f50db1ceeca2c1a77072cb8dfb9
+botocore-stubs==1.29.51 \
+    --hash=sha256:12fb950c3ba2e6d0a9d4f814eb2259a1e95c788299602f359d01f15e0f475310 \
+    --hash=sha256:d172b3bdb748afe7d233b2072b3a3eb623ed8350ee405c4a136f8d1903fb2d10
     # via boto3-stubs
 celery-types==0.12.0 \
     --hash=sha256:22a0b46d04508bbdb5074d070ebac6179550c2aa8506e1b05b74850d61d4fa82 \
@@ -155,6 +155,13 @@ pygments==2.11.2 \
 restructuredtext-lint==1.4.0 \
     --hash=sha256:1b235c0c922341ab6c530390892eb9e92f90b9b75046063e047cacfb0f050c45
     # via doc8
+setuptools==60.9.3 \
+    --hash=sha256:2347b2b432c891a863acadca2da9ac101eae6169b1d3dfee2ec605ecd50dbfe5 \
+    --hash=sha256:e4f30b9f84e5ab3decf945113119649fec09c1fc3507c6ebffec75646c56e62b
+    # via
+    #   zope-event
+    #   zope-interface
+    #   zope-schema
 stevedore==3.5.0 \
     --hash=sha256:a547de73308fd7e90075bb4d301405bebf705292fa90a90fc3bcf9133f58616c \
     --hash=sha256:f40253887d8712eaa2bb0ea3830374416736dc8ec0e22f5a65092c1174c44335
@@ -169,6 +176,10 @@ tomli==2.0.1 \
     # via
     #   black
     #   mypy
+types-awscrt==0.16.4 \
+    --hash=sha256:6ab83403d9c41f09219d4b00bd7dca0fe6eb174999739a4fa71dbba1033fd9dc \
+    --hash=sha256:fa1a13f544e31d118c92b4e960528ac8b9bcf7ff36b5c402d07f0c423b618896
+    # via botocore-stubs
 types-boto3==1.0.1 \
     --hash=sha256:392d5fdbb40ea0fb20f5116897e96b5e6c5b4a784e8c75aec1f5e12f2ebe3438 \
     --hash=sha256:4eb8aad23d4287d2f5b30a36e742f108beab8e0d55eb73817fdce405b8eef95e
@@ -286,11 +297,3 @@ zope-schema==6.2.0 \
     --hash=sha256:03150d8670549590b45109e06b7b964f4e751fa9cb5297ec4985c3bc38641b07 \
     --hash=sha256:2201aef8ad75ee5a881284d7a6acd384661d6dca7bde5e80a22839a77124595b
     # via mypy-zope
-
-# The following packages are considered to be unsafe in a requirements file:
-setuptools==60.9.3 \
-    --hash=sha256:2347b2b432c891a863acadca2da9ac101eae6169b1d3dfee2ec605ecd50dbfe5 \
-    --hash=sha256:e4f30b9f84e5ab3decf945113119649fec09c1fc3507c6ebffec75646c56e62b
-    # via
-    #   zope-interface
-    #   zope-schema

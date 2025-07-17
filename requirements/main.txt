@@ -945,9 +945,9 @@ jmespath==1.0.1 \
     # via
     #   boto3
     #   botocore
-jsonschema==4.23.0 \
-    --hash=sha256:d71497fef26351a33265337fa77ffeb82423f3ea21283cd9467bb03999266bc4 \
-    --hash=sha256:fbadb6f8b144a8f8cf9f0b89ba94501d143e50411a1278633f56a7acf7fd5566
+jsonschema==4.24.1 \
+    --hash=sha256:6b916866aa0b61437785f1277aa2cbd63512e8d4b47151072ef13292049b4627 \
+    --hash=sha256:fe45a130cc7f67cd0d67640b4e7e3e2e666919462ae355eda238296eafeb4b5d
     # via
     #   openapi-core
     #   openapi-schema-validator

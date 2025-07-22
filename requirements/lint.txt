@@ -605,9 +605,9 @@ urllib3==2.4.0 \
     --hash=sha256:414bc6535b787febd7567804cc015fee39daab8ad86268f1310a9250697de466 \
     --hash=sha256:4e16665048960a0900c702d4a66415956a584919c03361cac9f1df5c5dd7e813
     # via types-requests
-zope-event==5.0 \
-    --hash=sha256:2832e95014f4db26c47a13fdaef84cef2f4df37e66b59d8f1f4a8f319a632c26 \
-    --hash=sha256:bac440d8d9891b4068e2b5a2c5e2c9765a9df762944bda6955f96bb9b91e67cd
+zope-event==5.1.1 \
+    --hash=sha256:8d5ea7b992c42ce73a6fa9c2ba99a004c52cd9f05d87f3220768ef0329b92df7 \
+    --hash=sha256:c1ac931abf57efba71a2a313c5f4d57768a19b15c37e3f02f50eb1536be12d4e
     # via zope-schema
 zope-interface==7.2 \
     --hash=sha256:033b3923b63474800b04cba480b70f6e6243a62208071fc148354f3f89cc01b7 \

@@ -590,9 +590,9 @@ types-wtforms==3.2.1.20250401 \
     --hash=sha256:5f59b7f778a1323849d60cdb8101093f256d919b7b1e553d57fd9a6645da5f38 \
     --hash=sha256:e5aec8f47a32dbd42dd307ff285efa3edde3ebe50367b373a050cfb5c15d8aef
     # via -r requirements/lint.in
-types-zxcvbn==4.5.0.20250223 \
-    --hash=sha256:2b59be8147240e79201bcd9f2831b5b1b18ee36798d2cabd8200e23436617679 \
-    --hash=sha256:3bbc20b99547eafd5add1f7445da22933e8e0d16368c8fcacc8cce175da179c8
+types-zxcvbn==4.5.0.20250809 \
+    --hash=sha256:2cd151a5b35a976ae22017b5caed8f99d5e1be455cf9f9497cd86419073bc9cb \
+    --hash=sha256:da19c7c416ad26ecb934110260375e687f37f1ed897522214d97ca2e9ccb2de5
     # via -r requirements/lint.in
 typing-extensions==4.13.2 \
     --hash=sha256:a439e7c04b49fec3e5d3e2beaa21755cadbbdc391694e28ccdd36ca4a1408f8c \
